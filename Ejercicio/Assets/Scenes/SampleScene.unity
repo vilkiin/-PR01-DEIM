@@ -331,6 +331,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbcc7bcf90b48a34ab957b7d230b45ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  num0: 8
+  num1: 20
+  num2: 7.5
+  num3: 4.3
+  texto: buenas mundo
+  vida: 1
+  num10: 25
+  num11: -17
+  num12: 1.8
+  num13: -3.73
+  escrito: adios mundo
+  life: 0
+  num20: 0
+  num21: 0
+  num22: 0
+  num23: 0
+  palabras: 
+  die: 1
 --- !u!65 &1075176018
 BoxCollider:
   m_ObjectHideFlags: 0
