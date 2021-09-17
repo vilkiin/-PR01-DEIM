@@ -12,6 +12,9 @@ public class Move : MonoBehaviour
     public string texto = "Hola mundo";
     public bool vida = true;
     
+
+
+
     // valor cambiable desde unity
     public int num10;
     public int num11;
@@ -33,10 +36,16 @@ public class Move : MonoBehaviour
     {
         int resultado = num0 + num1;
         float resultado1 = num2 - num3;
+        float resultado11 = num12 * num13;
+        int resultado10 = num10 / num11;
+        string combinado = texto + " como estais";
         print(resultado);
         print(resultado1);
+        print(resultado10);
+        print(resultado11);
         print(texto);
         print(vida);
+        print(combinado);
         if (vida == true)
         {
             print("estas vivo");
@@ -51,12 +60,8 @@ public class Move : MonoBehaviour
         }
 
         // valor cambiable desde unity
-        print(num10);
-        print(num11);
-        print(num12);
-        print(num13);
-        print(escrito);
-        print(life);
+        
+
 
 
         // valor en start
@@ -66,8 +71,11 @@ public class Move : MonoBehaviour
         print(num23 = 13.23f);
         print(palabras = "The End");
         print(die = true);
-        
-        
+        int resultado20 = num20 / num21;
+        float resultado21 = num22 * num23;
+        print(resultado20);
+        print(resultado21);
+
 
     }
 
