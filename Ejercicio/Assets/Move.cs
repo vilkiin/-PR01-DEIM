@@ -5,19 +5,15 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
 
-    private int aleatorio;
+    void Saludos(string nombre)
+    {
+        print("hola " + nombre);
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        while (aleatorio != 8)
-        {
-            aleatorio = Random.Range(0, 20);
-           print("tu numero es " + aleatorio);
-
-        }
-        
-        
+        Saludos("jorge");
 
         
     }
@@ -26,6 +22,10 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+
+
     }
-}
+}   
+
+
