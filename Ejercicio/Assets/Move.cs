@@ -5,24 +5,19 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
 
-    int contador = 0;
+    private int aleatorio;
 
     // Start is called before the first frame update
     void Start()
     {
-        while (contador <= 100)
+        while (aleatorio != 8)
         {
-            print(contador);
-            contador++;
-
+            aleatorio = Random.Range(0, 20);
+           print("tu numero es " + aleatorio);
 
         }
-        for (int x = 0; x <= 10; x++)
-        {
-            print(x);
-            
-        }
-
+        
+        
 
         
     }
