@@ -10,9 +10,18 @@ public class Move : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        
+        while (contador <= 100)
+        {
+            print(contador);
+            contador++;
 
+
+        }
+        for (int x = 0; x <= 10; x++)
+        {
+            print(x);
+            
+        }
 
 
         
@@ -22,11 +31,6 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (contador != 100)
-        {
-            print(contador);
-            contador++;
-
-        }
+        
     }
 }
