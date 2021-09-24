@@ -10,7 +10,7 @@ public class Ejercicio : MonoBehaviour
         StartCoroutine("contador");
 
 
-        
+       
 
 
     }
@@ -67,6 +67,7 @@ public class Ejercicio : MonoBehaviour
 
             }
             
+
             
         
         }
