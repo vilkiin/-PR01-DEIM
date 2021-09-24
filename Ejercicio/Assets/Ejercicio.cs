@@ -8,13 +8,34 @@ public class Ejercicio : MonoBehaviour
     void Start()
     {
         StartCoroutine("contador");
+
+
+        
+
+
     }
+
+
 
     // Update is called once per frame
     void Update()
     {
-        
+      if (Input.GetKeyDown(KeyCode.Space))
+      {
+            StopCoroutine("contador");
+            print("has parado el contador");
+
+
+      }
+      if (Input.GetKeyDown(KeyCode.Return))
+        {
+            StartCoroutine("contador");
+            print("has iniciado el contador");
+        }         
     }
+
+
+
     
 
     IEnumerator contador()
@@ -45,9 +66,13 @@ public class Ejercicio : MonoBehaviour
 
 
             }
+            
+            
+        
         }
+        
 
     }
-
+    
 
 }
