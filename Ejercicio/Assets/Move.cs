@@ -1,31 +1,46 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Move : MonoBehaviour
 {
 
-    void Saludos(string nombre)
+    void Operacion(int number, int numero)
     {
-        print("hola " + nombre);
+          int resultado = number + numero;
+        bool booleana;
+        if (resultado == 8)
+        {
+            booleana = true;
+            print(booleana);
+            
+        }
+        else
+        {
+
+            booleana = false;
+            print(booleana);
+
+        }
+        
+
+
     }
+
+   
+
 
     // Start is called before the first frame update
     void Start()
     {
-        Saludos("jorge");
-
+       // Se le pasa dos numeros si estos dos numeros llegan al 8 la booleana sera true si es distinto es false (de momento solo suma)
+        Operacion(2, 3);
+            
+            
         
     }
-
 
     // Update is called once per frame
     void Update()
     {
-
-
-
+        
     }
-}   
-
-
+}
